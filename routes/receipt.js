@@ -2,7 +2,7 @@
 const express = require("express");
 const router = express.Router();
 const PDFDocument = require("pdfkit");
-const Order = require("../models/Order");
+const Order = require("../models/order");
 
 // GET /api/orders/:orderId/receipt
 router.get("/:orderId/receipt", async (req, res) => {
