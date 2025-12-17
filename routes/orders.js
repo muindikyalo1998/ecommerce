@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const Order = require('../models/order');
-const Product = require('../models/Product');
+const Product = require('../models/product');
 const auth = require('../middleware/auth');
 
 // Create new order
